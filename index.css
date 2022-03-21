@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+  font-family: 'Audiowide';
+  color: black;
+  height: 100vh;
+  font-size: 1.2vw;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+body>h1 {
+  padding: 0.5% 1%;
+  border: solid 4px #950740;
+  border-radius: 10px;
+}
+
+hr {
+  width: 90%;
+  border-color: #950740;
+}
+
+.container {
+  height: 15vw;
+  width: 90vw;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+}
+
+.player_names {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+
+.player_names h3 div{
+  padding-top: 5px;
+}
+
+.player1 {
+  width: 50%;
+  background: #222629;
+  display: flex;
+  justify-content: center;
+  color: #86c232;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+.player2 {
+  width: 50%;
+  background: #86c232;
+  display: flex;
+  color: #222629;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+h3 {
+  text-align: center;
+}
